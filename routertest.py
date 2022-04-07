@@ -8,4 +8,4 @@ router = APIRouter(
 
 @router.get('/testget')
 async def testget():
-    return "test"
+    return "test sererere"
