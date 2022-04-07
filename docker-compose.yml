@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  test-build:
+    image: test-build
+    ports:
+      - 8015:8015
+    restart: always
